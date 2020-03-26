@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AboutMe from "./pages/AboutMe";
-//import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -17,9 +17,9 @@ function App() {
             <Route exact path="/">
               <AboutMe />
             </Route>
-            {/* <Route path="/contact">
+            <Route path="/contact">
               <Contact />
-            </Route> */}
+            </Route>
             <Route path="/portfolio">
               <Portfolio />
             </Route>

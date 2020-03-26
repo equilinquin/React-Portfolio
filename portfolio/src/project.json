@@ -2,18 +2,18 @@
   {
     "id": 1,
     "name": "Day Calendar",
-    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/public/assets/img/Day-Calendar.png",
+    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/Day-Calendar.png",
     "deploy": "https://equilinquin.github.io/Day-Calender/",
     "github": "https://github.com/equilinquin/Day-Calender",
     "altImg": "DayCalendar"
   },
   {
-      "id": 2,
-      "name": "Coding Quiz",
-      "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/Coding-quiz.png",
-      "deploy": "https://equilinquin.github.io/Web-API/",
-      "github": "https://github.com/equilinquin/Web-API",
-      "altImg": "CodingQuiz"
+    "id": 2,
+    "name": "Coding Quiz",
+    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/Coding-quiz.png",
+    "deploy": "https://equilinquin.github.io/Web-API/",
+    "github": "https://github.com/equilinquin/Web-API",
+    "altImg": "CodingQuiz"
   },
   {
     "id": 3,
