@@ -1,6 +1,6 @@
 import React from "react";
-import "./style.css";
-import SkillList from "./SkillList";
+import "../assets/css/style.css";
+import PortfolioBtn from "./SkillList";
 import ImgTag from "./ImgTag";
 
 function PortfolioProjectCard(props) {
@@ -11,7 +11,7 @@ function PortfolioProjectCard(props) {
                   image = {props.name}
                   altImg = {props.altImg}
                 />
-                <SkillList 
+                <PortfolioBtn 
                   name = {props.name}
                   deploy = {props.deploy}
                   github = {props.github}

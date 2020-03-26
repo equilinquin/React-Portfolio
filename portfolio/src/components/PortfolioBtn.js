@@ -1,8 +1,7 @@
 import React from "react";
-import "./style.css";
-import ImgTag from "./ImgTag";
+import "../assets/css/style.css";
 
-function SkillList(props) {
+function PortfolioBtn(props) {
     return (
         <div className="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
             <h4>{props.name}</h4>
@@ -12,4 +11,4 @@ function SkillList(props) {
     )
 }
 
-export default SkillList;
+export default PortfolioBtn;
