@@ -11,7 +11,19 @@ class Portfolio extends Component {
 
     render() {
         return (
+            <div>
             <Header />
+            {this.state.project.map(item => {
+                <PortfolioArea
+                    name = {item.name}
+                    image = {item.image}
+                    deploy = {item.deploy}
+                    github = {item.github}
+                    altImg = {item.altImg}
+                />
+            })}
+            <Footer />
+            </div>
         )
     }
 }

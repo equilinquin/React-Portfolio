@@ -5,8 +5,8 @@ import ImgTag from "./ImgTag";
 
 function PortfolioProjectCard(props) {
     return (
-        <div class="uk-text-center">
-            <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+        <div className="uk-text-center">
+            <div className="uk-inline-clip uk-transition-toggle" tabindex="0">
                 <ImgTag 
                   image = {props.name}
                   altImg = {props.altImg}

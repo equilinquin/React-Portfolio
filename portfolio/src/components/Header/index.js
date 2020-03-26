@@ -1,21 +1,19 @@
 import React from "react";
+import { Link } from "react-router";
 import "../../css/style.css";
-import "../../pages/AboutMe.js";
-import "../../pages/Contact.js";
-import "../../pages/Portfolio"
 
 function Header() {
     return (
         <header
-        class="uk-light uk-heading-medium uk-background-cover uk-text-bolder"
+        className="uk-light uk-heading-medium uk-background-cover uk-text-bolder"
       >
-        <h5 class="uk-text-bolder">Hello...I'm</h5>
+        <h5 className="uk-text-bolder">Hello...I'm</h5>
         Elizabeth Garcia-Quilinquin
-        <section class="info">
+        <section className="info">
           <h4>
-            <a href="index.html">About&nbsp;&nbsp;</a>
-            <a href="contacts.html">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a>
-            <a href="portfolio.html">&nbsp;&nbsp;Portfolio</a>
+            <Link to ="../../pages/AboutMe.js" id="aboutme">About Me&nbsp;&nbsp;</Link>
+            <Link to="../../pages/Contact.js" id="contact">&nbsp;&nbsp;Contact&nbsp;&nbsp;</Link>
+            <Link to="../../pages/Portfolio.js" id="portfolio">&nbsp;&nbsp;Portfolio</Link>
           </h4>
         </section>
       </header>
