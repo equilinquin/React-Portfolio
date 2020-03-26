@@ -1,10 +1,8 @@
 import React from "react";
-import AboutMe from "./pages/AboutMe"
-
+import AboutMe from "./pages/AboutMe";
 
 function App() {
-return <AboutMe />
-
+  return <AboutMe />;
 }
 
 export default App;
