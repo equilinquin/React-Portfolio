@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Day Calendar",
-    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/img/Day-Calendar.png",
+    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/Day-Calendar.png",
     "deploy": "https://equilinquin.github.io/Day-Calender/",
     "github": "https://github.com/equilinquin/Day-Calender",
     "altImg": "DayCalendar"
@@ -10,7 +10,7 @@
   {
       "id": 2,
       "name": "Coding Quiz",
-      "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/img/Coding-quiz.png",
+      "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/Coding-quiz.png",
       "deploy": "https://equilinquin.github.io/Web-API/",
       "github": "https://github.com/equilinquin/Web-API",
       "altImg": "CodingQuiz"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Team Profile Generator",
-    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/img/team-profile.png",
+    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/team-profile.png",
     "deploy": "https://github.com/equilinquin/Team-Profile",
     "github": "Must run node.js to launch webpage.",
     "altImg": "TeamProfile"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Eat Da Burger",
-    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/img/Burger-logger.png",
+    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/Burger-logger.png",
     "deploy": "https://stark-gorge-80987.herokuapp.com/",
     "github": "https://github.com/equilinquin/Burger",
     "altImg": "BurgerLogger"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Portland Cuisine: Project 1",
-    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/img/project1.png",
+    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/project1.png",
     "deploy": "https://tcanbolat.github.io/Portland-Food-App/",
     "github": "https://github.com/tcanbolat/Portland-Food-App",
     "altImg": "Project1"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Star Gazer: Project 2",
-    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/img/Star-Gazer.png",
+    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/Star-Gazer.png",
     "deploy": "https://limitless-atoll-63723.herokuapp.com/",
     "github": "https://github.com/alpinelife37/Project-2",
     "altImg": "Project2"

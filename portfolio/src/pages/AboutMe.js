@@ -2,9 +2,11 @@ import React from "react";
 import AboutMeArea from "../components/AboutMeArea";
 
 function AboutMe() {
-    return (
-        <AboutMeArea />
-    )
+  return (
+    <div>
+      <AboutMeArea />
+    </div>
+  );
 }
 
 export default AboutMe;

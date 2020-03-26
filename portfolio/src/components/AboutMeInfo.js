@@ -3,16 +3,16 @@ import "../assets/css/style.css";
 
 function AboutMeInfo() {
     return (
-        <div class="uk-container-center" id="about-me">
-        <div class="header">
+        <div className="uk-container-center" id="about-me">
+        <div className="header">
           <h2>About Me</h2>
           <img
             src="assets/img/selfie.jpg"
             alt="profile-img"
-            class="uk-border-circle uk-align-center selfie"
+            className="uk-border-circle uk-align-center selfie"
           />
         </div>
-        <div class="body">
+        <div className="body">
           <p>
             My name is Elizabeth Garcia-Quilinquin. I'm orginally from a small
             island in Hawaii and decided to move out to the Continent for better
