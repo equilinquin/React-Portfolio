@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Day Calendar",
-    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/src/assets/img/Day-Calendar.png",
+    "image": "https://equilinquin.github.io/React-Portfolio/portfolio/public/assets/img/Day-Calendar.png",
     "deploy": "https://equilinquin.github.io/Day-Calender/",
     "github": "https://github.com/equilinquin/Day-Calender",
     "altImg": "DayCalendar"
