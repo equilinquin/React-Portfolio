@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/style.css";
-import PortfolioBtn from "./SkillList";
+import PortfolioBtn from "./PortfolioBtn";
 import ImgTag from "./ImgTag";
 
 function PortfolioProjectCard(props) {
@@ -8,7 +8,7 @@ function PortfolioProjectCard(props) {
         <div className="uk-text-center">
             <div className="uk-inline-clip uk-transition-toggle" tabindex="0">
                 <ImgTag 
-                  image = {props.name}
+                  image = {props.image}
                   altImg = {props.altImg}
                 />
                 <PortfolioBtn 
@@ -16,7 +16,7 @@ function PortfolioProjectCard(props) {
                   deploy = {props.deploy}
                   github = {props.github}
                 />
-        </div>
+           </div>
         </div>
 
     )

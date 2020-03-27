@@ -1,8 +1,11 @@
 /*! UIkit 3.3.2 | http://www.getuikit.com | (c) 2014 - 2019 YOOtheme | MIT License */
 
 (function (global, factory) {
+    // eslint-disable-next-line no-unused-expressions
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+    // eslint-disable-next-line no-undef
     typeof define === 'function' && define.amd ? define('uikiticons', factory) :
+    // eslint-disable-next-line no-restricted-globals
     (global = global || self, global.UIkitIcons = factory());
 }(this, (function () { 'use strict';
 
