@@ -1,17 +1,17 @@
 import React, { useState } from "react";
+import { useAlert } from "react-alert"
 import "../assets/css/style.css";
 
 function ContactForm() {
   const [input, setInput] = useState();
-  const [base, setBase] = useState();
-
+  const alert = useAlert();
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setInput({ ...input, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
     const templateId = "template_tKnB7CHH";
 
     sendFeedback(templateId, {
@@ -19,15 +19,15 @@ function ContactForm() {
       from_name: input.name,
       reply_to: input.email,
     });
-    
-    setBase({base});
+
   };
+
 
   const sendFeedback = (templateId, variables) => {
     window.emailjs
       .send("gmail", templateId, variables)
       .then((res) => {
-        console.log("Email successfully sent!");
+        alert.show("Email successfully sent!");
       })
       // Handle errors here however you like, or use a React error boundary
       .catch((err) =>
@@ -71,8 +71,8 @@ function ContactForm() {
         </div>
         <button
           className="uk-button uk-button-primary uk-align-center"
-          type="submit"
-          onSubmit={handleSubmit}
+          type="button"
+          onClick={handleSubmit}
         >
           Send
         </button>
