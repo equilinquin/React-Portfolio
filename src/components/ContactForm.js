@@ -1,32 +1,79 @@
-import React from "react";
+import React, { useState } from "react";
 import "../assets/css/style.css";
 
 function ContactForm() {
+  const [input, setInput] = useState();
+  const [base, setBase] = useState();
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setInput({ ...input, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const templateId = "template_tKnB7CHH";
+
+    sendFeedback(templateId, {
+      message_html: input.message,
+      from_name: input.name,
+      reply_to: input.email,
+    });
+    
+    setBase({base});
+  };
+
+  const sendFeedback = (templateId, variables) => {
+    window.emailjs
+      .send("gmail", templateId, variables)
+      .then((res) => {
+        console.log("Email successfully sent!");
+      })
+      // Handle errors here however you like, or use a React error boundary
+      .catch((err) =>
+        console.error(
+          "Oh well, you failed. Here some thoughts on the error that occured:",
+          err
+        )
+      );
+  };
+
+
   return (
-    <form className="uk-form uk-align-center">
+    <form  className="uk-form uk-align-center">
       <div>
         <div className="uk-margin">
           <input
             className="uk-input uk-form-width-large uk-dark uk-align-center"
             type="text"
+            name="name"
             placeholder="Name"
+            onChange={(e) => handleChange(e)}
           />
         </div>
         <div className="uk-margin">
           <input
             className="uk-input uk-form-width-large uk-align-center"
             type="text"
+            name="email"
             placeholder="Email"
+            onChange={(e) => handleChange(e)}
           />
         </div>
         <div className="uk-margin">
           <textarea
             className="uk-textarea uk-width-5-6 uk-align-center"
             rows="8"
+            name="message"
             placeholder="Message"
+            onChange={(e) => handleChange(e)}
           ></textarea>
         </div>
-        <button className="uk-button uk-button-primary uk-align-center" type="button">
+        <button
+          className="uk-button uk-button-primary uk-align-center"
+          type="submit"
+          onSubmit={handleSubmit}
+        >
           Send
         </button>
       </div>

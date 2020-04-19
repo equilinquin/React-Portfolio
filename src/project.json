@@ -33,6 +33,22 @@
   },
   {
     "id": 5,
+    "name": "Budget Tracker",
+    "image": "https://equilinquin.github.io/Budget/public/images/budget.png",
+    "deploy": "https://evening-anchorage-14088.herokuapp.com/",
+    "github": "https://github.com/equilinquin/Budget",
+    "altImg": "budgetTracker"
+  },
+  {
+    "id": 6,
+    "name": "Employee Directory",
+    "image": "https://equilinquin.github.io/Employee-Directory/images/deployedImage.png",
+    "deploy": "https://shielded-escarpment-44226.herokuapp.com/",
+    "github": "https://github.com/equilinquin/Employee-Directory",
+    "altImg": "EmployeeDirectory"
+  },
+  {
+    "id": 7,
     "name": "Portland Cuisine: Project 1",
     "image": "https://equilinquin.github.io/React-Portfolio/src/assets/img/project1.png",
     "deploy": "https://tcanbolat.github.io/Portland-Food-App/",
@@ -40,11 +56,19 @@
     "altImg": "Project1"
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "Star Gazer: Project 2",
     "image": "https://equilinquin.github.io/React-Portfolio/src/assets/img/Star-Gazer.png",
     "deploy": "https://limitless-atoll-63723.herokuapp.com/",
     "github": "https://github.com/alpinelife37/Project-2",
     "altImg": "Project2"
+  },
+  {
+    "id": 9,
+    "name": "Excelsior Comics",
+    "image": "https://user-images.githubusercontent.com/55672301/79191101-aef73300-7dda-11ea-934c-1b5c34c776cb.png",
+    "deploy": "https://excelsior-comics.herokuapp.com/",
+    "github": "https://github.com/equilinquin/Project-3",
+    "altImg": "Project3"
   }
 ]
