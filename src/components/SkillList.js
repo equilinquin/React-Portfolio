@@ -45,6 +45,18 @@ function SkillList() {
             <li>
               <h3><i className="fas fa-sitemap">&nbsp;MVC</i></h3>
             </li>
+            <li>
+              <h3><i class="fas fa-database">&nbsp;MongoDB</i></h3>
+            </li>
+            <li>
+              <h3><i class="fas fa-bolt">&nbsp;PWA</i></h3>
+            </li>
+            <li>
+              <h3><i class="fab fa-react">&nbsp;ReactJS</i></h3>
+            </li>
+            <li>
+              <h3><i className="fas fa-sitemap">&nbsp;MERN</i></h3>
+            </li>
           </ul>
           <a className="uk-position-center-left uk-position-small uk-hidden-hover" href="##" uk-slidenav-previous="true" uk-slider-item="previous"><i /></a>
           <a className="uk-position-center-right uk-position-small uk-hidden-hover" href="##" uk-slidenav-next="true" uk-slider-item="next"><i /></a>
