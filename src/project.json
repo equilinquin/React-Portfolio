@@ -9,15 +9,15 @@
   },
   {
     "id": 2,
-    "name": "Coding Quiz",
-    "image": "https://equilinquin.github.io/React-Portfolio/src/assets/img/Coding-quiz.png",
-    "deploy": "https://equilinquin.github.io/Web-API/",
-    "github": "https://github.com/equilinquin/Web-API",
-    "altImg": "CodingQuiz"
+    "name": "Weather Forecast",
+    "image": "https://equilinquin.github.io/Weather-Forecast/images/Weather-Forecast2.png",
+    "deploy": "https://equilinquin.github.io/Weather-Forecast/",
+    "github": "https://github.com/equilinquin/Weather-Forecast",
+    "altImg": "WeatherForecast"
   },
   {
     "id": 3,
-    "name": "Team Profile Generator",
+    "name": "Team Profile Generator (App must run on NodeJS to create Webpage)",
     "image": "https://equilinquin.github.io/React-Portfolio/src/assets/img/team-profile.png",
     "deploy": "Must run node.js to launch webpage.",
     "github": "https://github.com/equilinquin/Team-Profile",
