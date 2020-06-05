@@ -7,7 +7,7 @@ function AboutMeContactMe() {
     <div className="connect uk-light uk-background-cover uk-column-1-2">
       <div className="uk-card uk-card-body">
         <h3 className="uk-card-title">View my resume here</h3>
-        <a href="./assets/img/Resume.pdf" target="_blank">
+        <a href="./assets/img/Resume(4).pdf" target="_blank">
           <i className="fas fa-file-pdf fa-2x"></i>
         </a>
       </div>
