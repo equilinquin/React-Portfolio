@@ -1,13 +1,14 @@
 import React from "react";
 //import { Link } from "react-router-dom"
 import "../assets/css/style.css";
+import pdf from "../assets/img/Resume.pdf"
 
 function AboutMeContactMe() {
   return (
     <div className="connect uk-light uk-background-cover uk-column-1-2">
       <div className="uk-card uk-card-body">
         <h3 className="uk-card-title">View my resume here</h3>
-        <a href="../assets/img/Resume.pdf" target="_blank">
+        <a href= { pdf } target="_blank">
           <i className="fas fa-file-pdf fa-2x"></i>
         </a>
       </div>
